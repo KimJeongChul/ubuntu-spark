@@ -67,8 +67,8 @@
 export JAVE_HOME=/usr/java/default
 export SPARK_MASTER_IP=master
 export SPARK_WORKER_CORES=1
-export SPARK_WORKER_INSTANCES=2
+export SPARK_WORKER_INSTANCES=1
 export SPARK_MASTER_PORT=7077
-export SPARK_WORKER_MEMORY=2g
+export SPARK_WORKER_MEMORY=4g
 export MASTER=spark://${SPARK_MASTER_IP}:${SPARK_MASTER_PORT}
 export HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop/
